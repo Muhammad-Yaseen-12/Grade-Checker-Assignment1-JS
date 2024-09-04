@@ -1,8 +1,8 @@
-var urdu = parseFloat(prompt("Enter marks for Urdu !"));
-var english = parseFloat(prompt("Enter marks for English !"));
-var physics = parseFloat(prompt("Enter marks for Physics !"));
-var chemistry = parseFloat(prompt("Enter marks for Chemistry !"));
-var mathematisc = parseFloat(prompt("Enter marks for Mathematisc !"));
+var urdu = Number(prompt("Enter marks for Urdu !"));
+var english = Number(prompt("Enter marks for English !"));
+var physics = Number(prompt("Enter marks for Physics !"));
+var chemistry = Number(prompt("Enter marks for Chemistry !"));
+var mathematisc = Number(prompt("Enter marks for Mathematisc !"));
 
 var total = urdu + english + physics + chemistry + mathematisc;
 var average = total / 5;
